@@ -140,11 +140,20 @@ console.log("----------------------------------------")
 */
 
 console.log("Esercizio 8: ")
-
 stringArray = ['epicode', 'is', 'great'];
-
-function
-
+function funzioneStr() {
+  let arry2 = [];
+  for(i = 0; i < stringArray.length; i++) {
+    if(typeof stringArray[i] === "string") {
+      arry2.push(stringArray[i].length);
+    } else {
+      console.log("inserire stringa");
+      return;
+    }
+  }
+  console.log(arry2)
+};
+funzioneStr(stringArray)
 
 
 
