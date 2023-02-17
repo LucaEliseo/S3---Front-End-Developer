@@ -1,0 +1,140 @@
+.test{
+    background-color: rgb(175, 130, 130);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1, h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #008CBA;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* B */
+  .B {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #randomBtn {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  #randomNumber {
+    font-weight: bold;
+    font-size: 24px;
+    color: #008CBA;
+  }
+  
+
+  div{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  button {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  #risultato {
+    font-weight: bold;
+    font-size: 24px;
+    color: #008CBA;
+  }
+  
+
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  
+  button[type="button"] {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  table {
+    width: 70%;
+ 
+    margin-bottom: 20px;
+  }
+  
+ 
